@@ -1,0 +1,25 @@
+{
+  "name": "blue-leaf",
+  "description": "Minimal JS Fix for mostly CSS designs that need a hovering object that starts fixed (e.g. menus!)",
+  "main": [
+    "snh.js",
+  ],
+  "dependencies": {
+    "jquery": "~1.2.2",
+  },
+  "moduleType": [
+    "globals"
+  ],
+  "authors": [
+    "Andrew McAuley <andrew.mcauley@outlook.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": false
+}
