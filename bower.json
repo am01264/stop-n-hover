@@ -1,5 +1,5 @@
 {
-  "name": "blue-leaf",
+  "name": "stop-n-hover",
   "description": "Minimal JS Fix for mostly CSS designs that need a hovering object that starts fixed (e.g. menus!)",
   "main": [
     "snh.js"
