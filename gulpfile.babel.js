@@ -12,7 +12,8 @@ gulp.task('build', () => {
     .pipe($.sourcemaps.init())
     .pipe($.rename({basename: 'snh'}))
     .pipe($.babel({
-      presets: ['es2015']
+      presets: ['es2015'],
+      plugins: ['transform-flow-strip-types']
     }));
 
   const pNormal = pSource
