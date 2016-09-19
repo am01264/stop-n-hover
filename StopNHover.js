@@ -1,3 +1,10 @@
+// @flow
+type SNHOptions = {
+  classStop: string,
+  classHover: string
+};
+
+
 /**
  * Simple toggle function between 2 classes based on scroll-positioning.
  * If the element is in the viewable area, it gets the class `options.classStop` (defaults to `snh-stop`)
@@ -9,6 +16,11 @@
  */
 class StopNHover {
 
+  oOptions : SNHOptions;
+  domTarget : Element;
+
+  deltaHeight : number;
+  deltaTop : number;
 
   /**
    * Sets up the element with scroll-handlers and initial classes.
